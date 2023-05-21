@@ -35,7 +35,7 @@ int main() {
 	fig_ptr = &rectangle;
 	print_info(fig_ptr);
 
-	Quads::Square square (80);
+	Quads::Square square(80);
 	fig_ptr = &square;
 	print_info(fig_ptr);
 
