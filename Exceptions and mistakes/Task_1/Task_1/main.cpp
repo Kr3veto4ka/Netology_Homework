@@ -22,7 +22,7 @@ int main() {
 			std::cout << "Длинна вашего слова: " << function(str, forbidden_length) << std::endl;
 		}
 	}
-	catch(std::runtime_error bad_lenght) {
+	catch(const std::runtime_error& bad_lenght) {
 		std::cout << bad_lenght.what();
 	}
 

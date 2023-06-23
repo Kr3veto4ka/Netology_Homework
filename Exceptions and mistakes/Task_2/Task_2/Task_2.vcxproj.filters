@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Quads">
+      <UniqueIdentifier>{fc38862a-93aa-4b69-bb65-fa6cb5c6e7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Triangles">
+      <UniqueIdentifier>{362ce6d1-88a6-4301-8727-5b1830264f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Quads">
+      <UniqueIdentifier>{4628f841-6f53-48d7-b493-191fd5b4c10f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Triangles">
+      <UniqueIdentifier>{ade61b41-06a6-4698-8a21-5e0ebbb8bda7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Equil_triangle.cpp">
+      <Filter>Исходные файлы\Triangles</Filter>
+    </ClCompile>
+    <ClCompile Include="Isos_triangle.cpp">
+      <Filter>Исходные файлы\Triangles</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect_triangle.cpp">
+      <Filter>Исходные файлы\Triangles</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Исходные файлы\Triangles</Filter>
+    </ClCompile>
+    <ClCompile Include="Parallelogramm.cpp">
+      <Filter>Исходные файлы\Quads</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>Исходные файлы\Quads</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Исходные файлы\Quads</Filter>
+    </ClCompile>
+    <ClCompile Include="Rhombus.cpp">
+      <Filter>Исходные файлы\Quads</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Исходные файлы\Quads</Filter>
+    </ClCompile>
+    <ClCompile Include="FigExceptions.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Figure.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="All_figures.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>Файлы заголовков\Quads</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Файлы заголовков\Quads</Filter>
+    </ClInclude>
+    <ClInclude Include="Rhombus.h">
+      <Filter>Файлы заголовков\Quads</Filter>
+    </ClInclude>
+    <ClInclude Include="Parallelogramm.h">
+      <Filter>Файлы заголовков\Quads</Filter>
+    </ClInclude>
+    <ClInclude Include="Equil_triangle.h">
+      <Filter>Файлы заголовков\Triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="Isos_triangle.h">
+      <Filter>Файлы заголовков\Triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect_triangle.h">
+      <Filter>Файлы заголовков\Triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Файлы заголовков\Triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="FigExceptions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Файлы заголовков\Quads</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
