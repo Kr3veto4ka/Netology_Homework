@@ -43,8 +43,8 @@ Fraction& Fraction::operator-() { numerator_ = -numerator_;  return *this; }
 
 Fraction& Fraction::operator++() { numerator_ += denominator_;  return *this; }
 
-Fraction& Fraction::operator++(int) { numerator_ + denominator_; return *this; }
+Fraction Fraction::operator++(int) { Fraction F = *this; numerator_ += denominator_; return F; }
 
 Fraction& Fraction::operator--() { numerator_ - denominator_; return *this; }
 
-Fraction& Fraction::operator--(int) { numerator_ - denominator_; return *this; }
+Fraction Fraction::operator--(int) { Fraction F = *this; numerator_ -= denominator_; return F; }

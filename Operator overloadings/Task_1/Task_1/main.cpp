@@ -12,7 +12,12 @@ public:
 		numerator_ = numerator;
 		denominator_ = denominator;
 	}
-	auto operator<=> (const Fraction&) const = default;
+	bool operator==(Fraction& F) { return numerator_ * F.denominator_ == F.numerator_ * denominator_; }
+	bool operator<(Fraction& F) { return numerator_ * F.denominator_ < F.numerator_ * denominator_; }
+	bool operator>(Fraction& F) { return numerator_ * F.denominator_ > F.numerator_ * denominator_; }
+	bool operator<=(Fraction& F) { return numerator_ * F.denominator_ <= F.numerator_ * denominator_; }
+	bool operator>=(Fraction& F) { return numerator_ * F.denominator_ >= F.numerator_ * denominator_; }
+
 };
 
 int main()
