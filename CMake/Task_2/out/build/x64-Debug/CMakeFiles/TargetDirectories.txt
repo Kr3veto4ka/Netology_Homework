@@ -1,0 +1,3 @@
+C:/Users/User/Desktop/Netology_homework/CMake/Task_2/out/build/x64-Debug/CMakeFiles/FIGURES.dir
+C:/Users/User/Desktop/Netology_homework/CMake/Task_2/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Desktop/Netology_homework/CMake/Task_2/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
