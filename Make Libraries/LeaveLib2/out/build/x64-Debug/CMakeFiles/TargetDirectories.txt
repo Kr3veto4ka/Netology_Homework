@@ -1,0 +1,4 @@
+C:/Users/User/Desktop/Netology_homework/Make Libraries/LeaveLib2/out/build/x64-Debug/CMakeFiles/LeaveLib.dir
+C:/Users/User/Desktop/Netology_homework/Make Libraries/LeaveLib2/out/build/x64-Debug/CMakeFiles/LEAVE.dir
+C:/Users/User/Desktop/Netology_homework/Make Libraries/LeaveLib2/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Desktop/Netology_homework/Make Libraries/LeaveLib2/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

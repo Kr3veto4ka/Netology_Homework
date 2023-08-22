@@ -3,7 +3,7 @@
 #ifdef LEAVELIB_EXPORTS
 #define LEAVELIB_API __declspec(dllexport)
 #else
-#define LEAVELIB_API __declspec(dllexport)
+#define LEAVELIB_API __declspec(dllimport)
 #endif // LEAVELIB_EXPORTS
 
 class Leaver

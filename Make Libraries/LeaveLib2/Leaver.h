@@ -1,9 +1,9 @@
 #include <string>
 #pragma once
-#ifdef LEAVELIB_EXPORTS
+#ifdef LeaveLib_EXPORTS
 #define LEAVELIB_API __declspec(dllexport)
 #else
-#define LEAVELIB_API __declspec(dllexport)
+#define LEAVELIB_API __declspec(dllimport)
 #endif // LEAVELIB_EXPORTS
 
 class Leaver
