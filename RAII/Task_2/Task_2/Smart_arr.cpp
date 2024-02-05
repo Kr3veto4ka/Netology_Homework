@@ -5,6 +5,14 @@ Smart_arr::Smart_arr(int elements) {
 	arr = new int[this->elements];
 }
 
+Smart_arr& Smart_arr::operator=(const Smart_arr& arr) {
+	elements = arr.elements;
+	arrID = arr.arrID;
+	for (int i = 0; i < arr.elements; i++)
+		this->arr[i] = arr.arr[i];
+	return *this;
+}
+
 Smart_arr::~Smart_arr() {
 	delete[] arr;
 }
