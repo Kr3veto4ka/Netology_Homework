@@ -6,10 +6,14 @@ Smart_arr::Smart_arr(int elements) {
 }
 
 Smart_arr& Smart_arr::operator=(const Smart_arr& arr) {
-	elements = arr.elements;
-	arrID = arr.arrID;
-	for (int i = 0; i < arr.elements; i++)
-		this->arr[i] = arr.arr[i];
+	if (this != &arr) {
+		delete[] this->arr;
+		this->arr = new int[arr.elements];
+		elements = arr.elements;
+		arrID = arr.arrID;
+		for (int i = 0; i < arr.elements; i++)
+			this->arr[i] = arr.arr[i];
+	}
 	return *this;
 }
 
@@ -34,4 +38,12 @@ int Smart_arr::get_element(int id) {
 	else {
 		throw std::runtime_error("wrong index!");
 	}
+}
+
+Smart_arr::Smart_arr(const Smart_arr& arr) {
+	elements = arr.elements;
+	this->arr = new int[elements];
+	for (int i = 0; i < elements; i++)
+		this->arr[i] = arr.arr[i];
+	arrID = arr.arrID;
 }

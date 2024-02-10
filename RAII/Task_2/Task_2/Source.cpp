@@ -12,7 +12,7 @@ int main() {
 		new_array.add_element(34);
 
 		arr = new_array;
-
+		Smart_arr copy_arr(arr);
 	}
 	catch (const std::exception& ex) {
 		std::cout << ex.what() << std::endl;
